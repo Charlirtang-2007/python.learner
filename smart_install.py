@@ -9,8 +9,6 @@ import time
 import requests
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
-
 class SmartInstaller:
     def __init__(self):
         # 国内常用镜像源
