@@ -3,7 +3,6 @@ import json
 import os
 from pathlib import Path
 from typing import Dict, Optional, Tuple
-
 from fontTools.ttLib import TTFont
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
